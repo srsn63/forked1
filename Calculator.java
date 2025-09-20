@@ -16,6 +16,11 @@ public class Calculator {
         return (double) a / b;
     }
 }
+
 public boolean isEven(int n) {
     return n % 2 == 0;
+
+public int power(int base, int exp) {
+    return (int) Math.pow(base, exp);
+
 }
